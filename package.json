@@ -4,7 +4,7 @@
   "description": "A project to increase Covid-19 awareness",
   "main": "index.js",
   "scripts": {
-    "start": "live-server dist/index.html",
+    "start": "webpack-dev-server",
     "build": "webpack -w --mode development",
     "build-prod": "webpack --mode production"
   },
@@ -16,7 +16,8 @@
     "@babel/preset-react": "^7.0.0",
     "nodemon": "^2.0.2",
     "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.7"
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
     "babel-loader": "^8.0.6",
