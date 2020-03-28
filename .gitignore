@@ -102,4 +102,6 @@ typings/
 # TernJS port file
 .tern-port
 
-bundle.js
+dist/bundle.js
+yarn.lock
+package-json.lock
