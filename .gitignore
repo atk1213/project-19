@@ -105,3 +105,5 @@ typings/
 dist/bundle.js
 yarn.lock
 package-json.lock
+
+.DS_Store
